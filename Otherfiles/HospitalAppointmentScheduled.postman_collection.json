@@ -1,0 +1,45 @@
+{
+  "info": {
+    "_postman_id": "64869399-5828-466a-89b6-aa4e7c92f3fe",
+    "name": "HospitalAppointmentScheduled",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27873411",
+    "_collection_link": "https://go.postman.co/collection/27873411-64869399-5828-466a-89b6-aa4e7c92f3fe?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://127.0.0.1:8000/api/doctors/1/available-slots",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/doctors/1/available-slots?date=2026-06-16",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "doctors",
+            "1",
+            "available-slots"
+          ],
+          "query": [
+            {
+              "key": "date",
+              "value": "2026-06-16"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
